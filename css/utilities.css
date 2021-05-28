@@ -1,0 +1,99 @@
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.card {
+  background-color: #fff;
+  color: #333;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin: 10px;
+}
+
+.btn {
+  background-color: #e4a92a;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 15px 30px;
+  margin-top: 35px;
+  font-weight: bold;
+}
+
+.btn:hover {
+  transform: scale(0.97);
+  cursor: pointer;
+}
+.ext-lg {
+  font-size: 3.2rem;
+  font-weight: bold;
+}
+.lg {
+  font-size: 2rem;
+}
+.md {
+  font-size: 1.2rem;
+}
+.mby {
+  margin-top: 50px;
+}
+.pl-1 {
+  padding-left: 5px;
+}
+.pl-2 {
+  padding-left: 10px;
+}
+.pl-3 {
+  padding-left: 15px;
+}
+.pl-4 {
+  padding-left: 20px;
+}
+.pt-1 {
+  padding-top: 5px;
+}
+.pt-2 {
+  padding-top: 10px;
+}
+.pt-3 {
+  padding-top: 15px;
+}
+.pt-4 {
+  padding-top: 20px;
+}
+.mt-1 {
+  margin-top: 5px;
+}
+.mt-2 {
+  margin-top: 10px;
+}
+.mt-3 {
+  margin-top: 15px;
+}
+.mt-4 {
+  margin-top: 20px;
+}
+.bg-dark {
+  background-color: #333;
+  color: #fff;
+}
